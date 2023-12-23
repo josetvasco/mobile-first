@@ -163,7 +163,7 @@ main {
   min-width: 235px;
   max-width: 500px;
   height: 360px;
-  margin: 0 auto;
+  margin: 0 40px;
   scroll-snap-align: center;
   font-family: 'Inter', sans-serif;
 }
