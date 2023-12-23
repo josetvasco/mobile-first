@@ -149,6 +149,14 @@ main {
   color: #757575;
 }
 
+.main-tables-cointainer {
+  display: flex;
+  height: 400px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
 .main-currency-table, 
 .main-commission-table {
   width: 70%;
@@ -156,6 +164,7 @@ main {
   max-width: 500px;
   height: 360px;
   margin: 0 auto;
+  scroll-snap-align: center;
   font-family: 'Inter', sans-serif;
 }
 
