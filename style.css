@@ -163,7 +163,7 @@ main {
   min-width: 235px;
   max-width: 500px;
   height: 360px;
-  margin: 0 40px;
+  margin: 0 80px;
   scroll-snap-align: center;
   font-family: 'Inter', sans-serif;
 }
@@ -402,8 +402,7 @@ main {
   width: 90%;
   min-width: 288px;
   height: auto;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  margin: 0 auto; 
 }
 
 .plans--title h2 {
@@ -537,3 +536,4 @@ footer .left ul{
   text-decoration: none;
   color: var(--just-white);
 }
+
